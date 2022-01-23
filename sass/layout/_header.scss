@@ -1,0 +1,65 @@
+.header {
+    position: relative;
+    height: 90vh;
+    background: linear-gradient(
+        to bottom right,
+        rgba($color-primary-light, 0.5),
+        rgba($color-primary-dark, 0.9)
+      ),
+      url("../images/hero-section.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  
+    &__text-box {
+      font-family: "Anton", sans-serif;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    &__text-catchy {
+      z-index: 1;
+      position: absolute;
+      top: -45%;
+      left: -56%;
+      font-size: 5rem;
+      text-transform: uppercase;
+      animation: moveInLeft 500ms;
+      animation-delay: 300ms;
+    }
+  
+    &__big-text {
+      z-index: 10;
+      display: inline-block;
+      text-shadow: 2px 2px $color-black;
+      font-size: 7rem;
+      color: $color-white;
+      text-transform: uppercase;
+      line-height: 5rem;
+      animation: moveInRight 500ms;
+      animation-delay: 300ms;
+    }
+  
+    &__big-text-within {
+      font-size: 3rem;
+      color: rgba(230, 176, 30, 0.897);
+      text-transform: lowercase;
+      display: flex;
+      align-items: flex-start;
+      animation: moveInBottom 1000ms;
+      animation-delay: 300ms;
+    }
+  }
+  
+  .logo {
+    position: absolute;
+    font-family: "Pacifico", cursive;
+    font-size: 5rem;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .logo:hover {
+    animation: moveInRight 500ms ease-in;
+  }
