@@ -2,5 +2,22 @@ $color-primary: #388cb6;
 $color-primary-light: #9ad0ec;
 $color-primary-dark: #1572a1;
 
+$color-grey-light-1: #f7f7f7;
+
+$color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #000;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #c7950c;
+
+$color-tertiary-light: #8eddeb;
+$color-tertiary-dark: #0cc798;
+
+// default font size
+$default-font-size: 1.6rem;
+
+// for grid layout
+$grid-width: 95%;
+$gutter-horizontal: 10rem;
+$gutter-vertical: 10rem;
