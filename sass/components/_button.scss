@@ -13,6 +13,24 @@
   &:active {
     box-shadow: 0 0.5rem 1rem rgba(20, 13, 13, 0.2);
   }
+
+  &-big {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    padding: 0.5em;
+    border-radius: 5.5rem;
+  }
+
+  &-white {
+    background-color: $color-white;
+    color: $color-grey-dark;
+  }
+
+  &-green {
+    background-color: $color-green;
+    color: $color-white;
+  }
 }
 
 .discover {
@@ -20,11 +38,7 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 3rem;
-  padding: 0.5em;
-  border-radius: 5.5rem;
+
   animation: moveInBottomDiscover 500ms ease-out 750ms;
   animation-fill-mode: backwards;
 
@@ -51,11 +65,6 @@
     transform: scaleX(1.5) scaleY(1.8);
     opacity: 0;
   }
-}
-
-.btn-white {
-  background-color: $color-white;
-  color: #777;
 }
 
 .btn-text {
